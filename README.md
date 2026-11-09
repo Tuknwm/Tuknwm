@@ -24,6 +24,4 @@ also not only as frontend i do for Edditing Video, design like using Illustrator
 
 </div>
 
----
-
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=ffffff&height=120&section=footer)
