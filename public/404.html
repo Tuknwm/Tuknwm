@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEKO.OS | 404</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; cursor: none !important; }
+    html, body {
+      width: 100%; height: 100%;
+      background-color: #111115;
+      color: #fefffc;
+      font-family: 'JetBrains Mono', monospace;
+      cursor: none;
+      overflow: hidden;
+    }
+    .custom-pointer {
+      position: fixed;
+      top: 0; left: 0;
+      width: 32px; height: 32px;
+      pointer-events: none;
+      z-index: 9999;
+      background-image: url("/Assets/Tiles/tile_0027.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      image-rendering: pixelated;
+      will-change: transform;
+      margin-left: -6px;
+      margin-top: -2px;
+    }
+    .custom-pointer.hovering {
+      background-image: url("/Assets/Tiles/tile_0134.png");
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: repeating-linear-gradient(
+        to bottom,
+        transparent 0px,
+        transparent 3px,
+        rgba(0, 0, 0, 0.08) 3px,
+        rgba(0, 0, 0, 0.08) 4px
+      );
+      pointer-events: none;
+      z-index: 100;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      gap: 60px;
+      padding: 24px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .content-left {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+    }
+    .badge {
+      font-family: 'Pixelify Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      color: #41a1cf;
+      letter-spacing: 0.15em;
+      margin-bottom: 24px;
+      animation: blink 1.2s steps(2, start) infinite;
+    }
+    @keyframes blink {
+      to { opacity: 0.3; }
+    }
+    .error-code {
+      font-family: 'Pixelify Sans', sans-serif;
+      font-size: clamp(80px, 18vw, 160px);
+      font-weight: 700;
+      line-height: 1;
+      color: #fefffc;
+      text-shadow:
+        4px 4px 0px #0081c0,
+        8px 8px 0px rgba(0, 129, 192, 0.3);
+      margin-bottom: 8px;
+      letter-spacing: -0.02em;
+      animation: neonFlicker 5s infinite;
+    }
+    @keyframes neonFlicker {
+      0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        text-shadow:
+          4px 4px 0px #0081c0,
+          8px 8px 0px rgba(0, 129, 192, 0.3);
+        color: #fefffc;
+        opacity: 1;
+      }
+      20%, 24%, 55% {
+        text-shadow: none;
+        color: rgba(254, 255, 252, 0.15);
+        opacity: 0.4;
+      }
+      22% {
+        text-shadow: 4px 4px 0px #0081c0;
+        color: #fefffc;
+        opacity: 0.8;
+      }
+    }
+    .error-label {
+      font-family: 'Pixelify Sans', sans-serif;
+      font-size: clamp(14px, 3vw, 22px);
+      font-weight: 700;
+      color: #41a1cf;
+      letter-spacing: 0.2em;
+      margin-bottom: 32px;
+    }
+    .divider {
+      width: 240px;
+      height: 1px;
+      background: linear-gradient(to right, rgba(254,255,252,0.2), transparent);
+      margin-bottom: 32px;
+    }
+    .message {
+      font-size: 14px;
+      color: #b4b8b4;
+      line-height: 1.7;
+      max-width: 420px;
+      margin-bottom: 48px;
+    }
+    .message span {
+      color: #41a1cf;
+    }
+    .home-btn {
+      font-family: 'Pixelify Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: #fefffc;
+      background-color: transparent;
+      border: 3px solid #fefffc;
+      padding: 10px 28px;
+      letter-spacing: 0.1em;
+      cursor: none;
+      box-shadow: 4px 4px 0px #41a1cf;
+      transition: transform 0.08s ease, box-shadow 0.08s ease, background-color 0.2s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .home-btn:hover {
+      background-color: rgba(255, 255, 255, 0.06);
+      box-shadow: 6px 6px 0px #41a1cf;
+      transform: translate(-1px, -1px);
+    }
+    .home-btn:active {
+      transform: translate(3px, 3px);
+      box-shadow: 1px 1px 0px #41a1cf;
+    }
+    .footer-line {
+      position: fixed;
+      bottom: 32px;
+      left: 0; right: 0;
+      text-align: center;
+      font-size: 11px;
+      color: rgba(254, 255, 252, 0.25);
+      letter-spacing: 0.08em;
+    }
+    .pixel-cat {
+      width: 220px;
+      height: 220px;
+      object-fit: contain;
+      margin-bottom: 20px;
+      image-rendering: pixelated;
+      filter: drop-shadow(0 0 18px rgba(0, 229, 255, 0.42)) drop-shadow(0 0 8px rgba(255, 255, 255, 0.38));
+      animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        justify-content: center;
+        height: auto;
+        padding: 60px 24px;
+        overflow-y: auto;
+      }
+      .content-left {
+        align-items: center;
+        text-align: center;
+      }
+      .divider {
+        margin: 0 auto 32px auto;
+        background: linear-gradient(to right, transparent, rgba(254,255,252,0.2), transparent);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="page-overlay" style="position:fixed;inset:0;background:#111115;z-index:9998;opacity:1;transition:opacity 0.4s ease;pointer-events:none;"></div>
+  <div class="custom-pointer" id="pointer"></div>
+  <div class="container">
+    <div class="content-left">
+      <div class="badge">NEKO.OS // ERR_404</div>
+      <div class="error-code">404</div>
+      <div class="error-label">PAGE_NOT_FOUND</div>
+      <div class="divider"></div>
+      <p class="message">
+        The coordinate you requested does not exist in this system.<br>
+        <span>[ LOCATION: UNKNOWN // SIGNAL LOST ]</span>
+      </p>
+      <a href="/" class="home-btn">↩ RETURN TO BASE</a>
+    </div>
+    <img src="/Assets/Image/404-pingpong-transparent.gif" class="pixel-cat" alt="404 Cat">
+  </div>
+  <div class="footer-line">NEKO.OS — DESK_TERMINAL_01 // STATUS: LOST</div>
+  <script>
+    const overlay = document.getElementById('page-overlay');
+    requestAnimationFrame(() => requestAnimationFrame(() => { overlay.style.opacity = '0'; }));
+    const pointer = document.getElementById('pointer');
+    document.addEventListener('mousemove', (e) => {
+      pointer.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`;
+    });
+    document.addEventListener('mouseover', (e) => {
+      const interactiveEl = e.target.closest('.home-btn, .pixel-cat, a, button');
+      if (interactiveEl) {
+        pointer.classList.add('hovering');
+      }
+    });
+    document.addEventListener('mouseout', (e) => {
+      const interactiveEl = e.target.closest('.home-btn, .pixel-cat, a, button');
+      if (interactiveEl && (!e.relatedTarget || !interactiveEl.contains(e.relatedTarget))) {
+        pointer.classList.remove('hovering');
+      }
+    });
+    const bgMusic = new Audio('/Assets/SoundFX/bgmusic.mp3');
+    bgMusic.loop = true;
+    bgMusic.volume = 0.35;
+    let isAudioEnabled = localStorage.getItem('audio_enabled') === 'true';
+    const savedTime = parseFloat(localStorage.getItem('bgMusic_time') || '0');
+    if (savedTime > 0) {
+      bgMusic.currentTime = savedTime;
+    }
+    bgMusic.addEventListener('timeupdate', () => {
+      if (isAudioEnabled) {
+        localStorage.setItem('bgMusic_time', bgMusic.currentTime);
+      }
+    });
+    const startPlay = () => {
+      if (isAudioEnabled) {
+        bgMusic.play().catch(err => console.log('Autoplay blocked:', err));
+      }
+      window.removeEventListener('click', startPlay);
+      window.removeEventListener('keydown', startPlay);
+    };
+    window.addEventListener('click', startPlay);
+    window.addEventListener('keydown', startPlay);
+    const homeBtn = document.querySelector('.home-btn');
+    if (homeBtn) {
+      homeBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (isAudioEnabled) localStorage.setItem('bgMusic_time', bgMusic.currentTime);
+        overlay.style.opacity = '1';
+        setTimeout(() => { window.location.href = '/'; }, 400);
+      });
+    }
+  </script>
+</body>
+</html>

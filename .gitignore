@@ -1,0 +1,22 @@
+# Antigravity / AI tools
+.taste-skill/
+
+# Build output
+dist/
+
+# Dependencies
+node_modules/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
