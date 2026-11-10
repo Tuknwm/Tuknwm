@@ -160,7 +160,7 @@ const PROJECTS = [
     ],
     desc: 'ALTAR (Assistant Lecturer Tarumanagara) is a web-based application and PWA designed to streamline the workflows of assistant lecturers and coordinators. Assistant lecturers can easily check in and check out by scanning a class-specific QR code directly through their mobile browsers. For administrators (coordinators), the application offers management tools to organize schedules, validate attendance, monitor teaching history in real-time, and export attendance data into Excel files for administrative purposes.',
     github: 'https://github.com/Tuknwm/tuknwm-AltarProject',
-    live: 'https://tuknwm-altarproject.vercel.app/',
+    live: 'https://tuknwm-altar.vercel.app/',
     scrollTarget: 0.48,
   },
   {
@@ -204,7 +204,7 @@ const PROJECTS = [
     ],
     desc: 'iClick is a simple click speed test game. This is dummy and has been redesigned. The objective of the game is to click as many times as possible within a given time limit. The game keeps track of the number of clicks and displays the final score at the end of the game. also this is my first ever project that I made.',
     github: 'https://github.com/Tuknwm/tuknwm-iClickProject',
-    live: 'https://tuknwm-iclickproject.vercel.app/',
+    live: 'https://tuknwm-iclick.vercel.app/',
     scrollTarget: 0.68,
   },
       {
