@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Vector" transform="matrix(0.833333,0,0,0.833333,0,0)">
+        <path d="M196.959,0L43.041,0C19.27,0 0,19.27 0,43.041L0,196.959C0,220.73 19.27,240 43.041,240L196.959,240C220.73,240 240,220.73 240,196.959L240,43.041C240,19.27 220.73,0 196.959,0Z" style="fill:rgb(51,0,0);fill-rule:nonzero;"/>
+    </g>
+    <g id="Vector_2" transform="matrix(0.833333,0,0,0.833333,0,0)">
+        <path d="M81.232,63.706L116.568,63.706L156.198,174.339L123.833,174.339L118.384,157.496L76.938,157.496L71.489,174.339L40.446,174.339L81.232,63.706ZM109.798,131.241L97.744,94.088L85.69,131.241L109.798,131.241Z" style="fill:rgb(255,154,0);fill-rule:nonzero;"/>
+    </g>
+    <g id="Vector_3" transform="matrix(0.833333,0,0,0.833333,0,0)">
+        <path d="M160.94,70.971C160.94,63.045 167.049,57.927 176.296,57.927C185.378,57.927 191.157,63.211 191.157,70.971C191.157,78.897 185.378,84.347 176.296,84.347C166.719,84.347 160.94,79.062 160.94,70.971ZM161.765,88.144L190.662,88.144L190.662,174.339L161.765,174.339L161.765,88.144Z" style="fill:rgb(255,154,0);fill-rule:nonzero;"/>
+    </g>
+</svg>
