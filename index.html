@@ -26,7 +26,7 @@
       overflow: hidden;
     }
   </style>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/src/style.css">
 </head>
 <body>
   <div id="loading-page" class="loading-page">
@@ -419,6 +419,11 @@
     </div>
   </main>
   <div class="pixel-modal-overlay" id="project-modal">
+    <div class="archive-modal-wrapper">
+    <div class="archive-preview-paper" id="archive-preview-paper">
+      <div class="archive-preview-strip-wrap" id="archive-preview-strip-wrap"></div>
+      <div class="archive-preview-info" id="archive-preview-info"></div>
+    </div>
     <div class="pixel-modal-bg-paper">
       <div class="pixel-paper-content">
         <div class="pixel-header" style="border-bottom: 2px dashed rgba(23, 23, 23, 0.1); padding-bottom: 6px; margin-bottom: 10px;">
@@ -453,7 +458,11 @@
         <div class="pixel-badge">CATALOG // ACTIVE_PROJECTS</div>
         <h2 class="modal-paper-title">PROJECT ARCHIVE</h2>
       </div>
-      <div class="modal-projects-list"></div></div></div><div id="project-detail-paper" class="project-detail-paper">
+      <div class="modal-projects-list"></div>
+    </div>
+    </div>
+  </div>
+  <div id="project-detail-paper" class="project-detail-paper">
     <div class="detail-paper-inner">
       <button class="detail-close" id="detail-close-btn">[ CLOSE ✕ ]</button>
       <div class="detail-paper-content">
@@ -491,6 +500,8 @@
       <iframe src="/CV.pdf" title="Curriculum Vitae" class="cv-modal-frame"></iframe>
     </div>
   </div>
-  <script type="module" src="/script.js"></script>
+  <script type="module" src="/src/script.js"></script>
 </body>
 </html>
+
+

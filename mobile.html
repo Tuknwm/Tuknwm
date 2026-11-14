@@ -7,12 +7,12 @@
   <script>
     if (window.location.pathname !== '/') window.history.replaceState({}, '', '/');
   </script>
-  <title>Tuknwm — Mobile Portfolio</title>
+  <title>Tuknwm Portfolio Project</title>
   <link rel="icon" type="image/png" href="/Assets/Image/categ.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/mobile.css">
+  <link rel="stylesheet" href="/src/mobile.css">
 </head>
 <body>
   <header class="mobile-nav">
@@ -29,7 +29,7 @@
     <section id="home" class="mobile-hero" aria-labelledby="mobile-title">
       <p class="context-label">Just a Designer &amp; Frontend Dev</p>
       <h1 id="mobile-title">JOE NICKSON LIE</h1>
-      <p class="hero-copy">Hello there stranger human!, Call me Joe, I'm a Frontend Dev (Not "Full Stack" but depends on the situation). I also work in design and video editing. Honestly, I'm not quite sure what else to say, I'm currently an Informatics Engineering (IT) student at Tarumanagara University with a GPA of 3.53 (though, to be fair, I don't really care much about that 😹). What else... Well, I'm not sure what else to add, so fell free to explore this website until bottom. See you</p>
+      <p class="hero-copy">Hello there stranger human!, Call me Joe, I'm a Frontend Dev (Not "Full Stack" but depends on the situation). I also work in design and video editing. Honestly, I'm not quite sure what else to say, I'm currently an Informatics Engineering (IT) student at Tarumanagara University with a GPA of 3.53 (though, to be fair, I don't really care much about that ðŸ˜¹). What else... Well, I'm not sure what else to add, so fell free to explore this website until bottom. See you</p>
       <div class="hero-actions">
         <a class="primary-action" href="#contact">Let's Connect <span>→</span></a>
         <button class="text-action" type="button" data-shuffle>See My Work <span>↓</span></button>
@@ -41,46 +41,7 @@
         <p class="context-label">Selected work</p>
         <h2 id="work-title">Built, tested, shipped.</h2>
       </div>
-      <div class="mobile-projects" id="mobile-projects">
-        <article class="mobile-project is-open" data-project="altar">
-          <button class="project-toggle" type="button" aria-expanded="true">
-            <span class="project-number">—</span><span class="project-name">ALTAR</span><span class="project-kind">PROJECT_01 // Dashboard Website</span><span class="project-symbol">×</span>
-          </button>
-          <div class="project-detail"><img src="/ProjectList/P1/Img1.png" alt="ALTAR project preview"><div><p>Assistant Lecturer Tarumanagara is a web app and PWA for attendance, schedules, QR check-ins, and coordinator workflows.</p><div class="project-links"><a href="https://tuknwm-altarproject.vercel.app/" target="_blank" rel="noopener">Visit project ↗</a><a href="https://github.com/Tuknwm/tuknwm-AltarProject" target="_blank" rel="noopener">GitHub ↗</a></div></div></div>
-        </article>
-        <article class="mobile-project" data-project="kuroyu">
-          <button class="project-toggle" type="button" aria-expanded="false"><span class="project-number">—</span><span class="project-name">Kuroyu</span><span class="project-kind">PROJECT_02 // E-commerce Shop</span><span class="project-symbol">+</span></button>
-          <div class="project-detail"><img src="/ProjectList/P2/Img1.png" alt="Kuroyu project preview"><div><p>An online store for a streetwear brand built around a dark, minimalist Japan aesthetic.</p><div class="project-links"><a href="https://kuroyuproject.vercel.app/" target="_blank" rel="noopener">Visit project ↗</a><a href="https://github.com/Tuknwm/tuknwm-KuroyuProject" target="_blank" rel="noopener">GitHub ↗</a></div></div></div>
-        </article>
-        <article class="mobile-project" data-project="downloader">
-          <button class="project-toggle" type="button" aria-expanded="false"><span class="project-number">—</span><span class="project-name">URL Downloader</span><span class="project-kind">PROJECT_03 // Downdloader Website</span><span class="project-symbol">+</span></button>
-          <div class="project-detail"><img src="/ProjectList/P3/Img1.png" alt="URL Downloader project preview"><div><p>Just a simple URL downloader project that allows users to download files from the social media by providing a valid URL. The project is built using HTML, CSS, and JavaScript. and this was personal use.</p><div class="project-links"><a href="https://tuknwm-urldownloader.vercel.app/" target="_blank" rel="noopener">Visit project ↗</a><a href="https://github.com/Tuknwm/tuknwm-URLDownloaderProject" target="_blank" rel="noopener">GitHub ↗</a></div></div></div>
-        </article>
-        <article class="mobile-project" data-project="iclick">
-          <button class="project-toggle" type="button" aria-expanded="false"><span class="project-number">—</span><span class="project-name">iClick</span><span class="project-kind">PROJECT_04 // Interactive Clicker Game</span><span class="project-symbol">+</span></button>
-          <div class="project-detail"><img src="/ProjectList/P4/Img1.png" alt="iClick project preview"><div><p>iClick is a simple click speed test game. This is dummy and has been redesigned. The objective of the game is to click as many times as possible within a given time limit. The game keeps track of the number of clicks and displays the final score at the end of the game. also this is my first ever project that I made.</p><div class="project-links"><a href="https://tuknwm-iclickproject.vercel.app/" target="_blank" rel="noopener">Visit project ↗</a><a href="https://github.com/Tuknwm/tuknwm-iClickProject" target="_blank" rel="noopener">GitHub ↗</a></div></div></div>
-        </article>
-        <article class="mobile-project" data-project="trilife">
-          <button class="project-toggle" type="button" aria-expanded="false"><span class="project-number">—</span><span class="project-name">TrilifePlus</span><span class="project-kind">PROJECT_05 // simulations</span><span class="project-symbol">+</span></button>
-          <div class="project-detail"><img src="/ProjectList/P5/Img1.png" alt="TrilifePlus project preview"><div><p>A digital insurance platform for exploring life, health, and car insurance simulations.</p><div class="project-links"><a href="https://tuknwm-trilifeplus.vercel.app/" target="_blank" rel="noopener">Visit project ↗</a><a href="https://github.com/Tuknwm/tuknwm-TrilifePlusProject" target="_blank" rel="noopener">GitHub ↗</a></div></div></div>
-        </article>
-        <article class="mobile-project" data-project="chilltea">
-          <button class="project-toggle" type="button" aria-expanded="false"><span class="project-number">—</span><span class="project-name">ChillTea</span><span class="project-kind">PROJECT_06 // Story Brand</span><span class="project-symbol">+</span></button>
-          <div class="project-detail"><img src="/ProjectList/P6/Img1.png" alt="ChillTea project preview"><div><p>A tea-based beverage brand built around premium ingredients and relaxed everyday rituals.</p><div class="project-links"><a href="https://tuknwm-chilltea.vercel.app/" target="_blank" rel="noopener">Visit project ↗</a><a href="https://github.com/Tuknwm/tuknwm-ChillTeaProject" target="_blank" rel="noopener">GitHub ↗</a></div></div></div>
-        </article>
-        <article class="mobile-project" data-project="trainity">
-          <button class="project-toggle" type="button" aria-expanded="false"><span class="project-number">—</span><span class="project-name">Trainity</span><span class="project-kind">PROJECT_06 // Learning Platform</span><span class="project-symbol">+</span></button>
-          <div class="project-detail"><img src="/ProjectList/P7/Img1.png" alt="Trainity project preview"><div><p>A free coding-learning platform covering Python, JavaScript, and React through accessible courses.</p><div class="project-links"><a href="https://tuknwm-trainity.vercel.app/" target="_blank" rel="noopener">Visit project ↗</a><a href="https://github.com/Tuknwm/tuknwm-TrainityProject" target="_blank" rel="noopener">GitHub ↗</a></div></div></div>
-        </article>
-        <article class="mobile-project" data-project="learra">
-          <button class="project-toggle" type="button" aria-expanded="false"><span class="project-number">—</span><span class="project-name">Learra</span><span class="project-kind">PROJECT_06 // insurance app</span><span class="project-symbol">+</span></button>
-          <div class="project-detail"><img src="/ProjectList/P8/Img1.png" alt="Learra project preview"><div><p>A Flutter-based mobile application that allows users to purchase insurance, check policies, make payments, and file claims quickly and easily.</p><p class="project-note"></p><div class="project-links"><a href="https://tuknwm-learra.vercel.app" target="_blank" rel="noopener">Visit project ↗</a><a href="https://github.com/Tuknwm/tuknwm-LearraProject" target="_blank" rel="noopener">GitHub ↗</a></div></div></div>
-        </article>
-        <article class="mobile-project" data-project="monotaro">
-          <button class="project-toggle" type="button" aria-expanded="false"><span class="project-number">—</span><span class="project-name">Monotaro.id</span><span class="project-kind">PROJECT_06 // Learning Platform</span><span class="project-symbol">+</span></button>
-          <div class="project-detail"><img src="/ProjectList/P9/Img1.png" alt="Monotaro.id project preview"><div><p>Trainity is a free, web-based coding learning platform that offers high-quality programming courses, covering everything from Python and JavaScript to React. This is a demo/dummy project.</p><div class="project-links"><a href="https://tuknwm-monotaro-mobile.vercel.app/" target="_blank" rel="noopener">Visit Mobile Project ↗</a><a href="https://tuknwm-monotaro-dashboard.vercel.app" target="_blank" rel="noopener">Visit Dashboard View ↗</a><a href="https://github.com/Tuknwm/tuknwm-MonotaroProject" target="_blank" rel="noopener">GitHub ↗</a></div></div></div>
-        </article>
-      </div>
+      <div class="mobile-projects" id="mobile-projects"></div>
     </section>
 
     <section id="about" class="mobile-section about-section" aria-labelledby="about-title">
@@ -90,7 +51,7 @@
       <div class="journey-block">
         <div class="journey-heading"><p class="context-label">Logs // Timeline</p></div>
         <h3>JOURNEY</h3>
-        <p class="journey-line">“Everythings is Blue”</p>
+        <p class="journey-line">"Everythings is Blue"</p>
         <div class="stack-heading"><p class="context-label stack-label">Sys.Core // Stack</p></div>
         <div class="stack-icons" aria-label="Tools and technologies">
           <div><img src="/Assets/Stack/Adobe Premiere Logo.svg" alt="Adobe Premiere Pro"><span>Premiere</span></div>
@@ -126,7 +87,7 @@
         <a class="alt-email" href="mailto:kurokyu.project@gmail.com">Alternatif Email</a>
       </div>
       <div class="contact-bottom"><span>SIGNAL: SECURE // PORT_5174</span><span>LATENCY: 14ms | DESK_TERMINAL_01</span></div>
-      <div class="contact-bottom-copy"><span>© 2026 NEKO.OS — ALL SYSTEMS OPERATIONAL</span></div>
+      <div class="contact-bottom-copy"><span>© 2026 NEKO.OS "" ALL SYSTEMS OPERATIONAL</span></div>
     </section>
   </main>
 
@@ -138,6 +99,9 @@
       </object>
     </div>
   </div>
-  <script type="module" src="/mobile.js"></script>
+  <script type="module" src="/src/mobile.js"></script>
 </body>
 </html>
+
+
+

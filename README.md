@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="./Assets/CatRest_pingpong.gif" width="100%" alt="CatRest"/>
+<img src="./public/Readme/CatRest_pingpong.gif" width="100%" alt="CatRest"/>
 
 </div>
 
@@ -16,11 +16,12 @@ also not only as frontend i do for Edditing Video, design like using Illustrator
 
 <div align="center">
 
-[![LinkedIn](./Assets/linkedin-button-white.svg)](https://www.linkedin.com/in/joenicksonlie/)
-[![GitHub](./Assets/github-button-white.svg)](https://github.com/Tuknwm)
-[![WhatsApp](./Assets/whatsapp-button-white.svg)](https://wa.me/6285121039548)
-[![Email](./Assets/email-button-white.svg)](mailto:joenks321@gmail.com)
-[![Alt Email](./Assets/alt-email-button-white.svg)](mailto:kurokyu.project@gmail.com)
+[![LinkedIn](./public/Readme/linkedin-button-white.svg)](https://www.linkedin.com/in/joenicksonlie/)
+[![Website](./public/Readme/Website-button-white.svg)](https://kurokyu.web.id)
+[![GitHub](./public/Readme/github-button-white.svg)](https://github.com/Tuknwm)
+[![WhatsApp](./public/Readme/whatsapp-button-white.svg)](https://wa.me/6285121039548)
+[![Email](./public/Readme/email-button-white.svg)](mailto:joenks321@gmail.com)
+[![Alt Email](./public/Readme/alt-email-button-white.svg)](mailto:kurokyu.project@gmail.com)
 
 </div>
 
