@@ -6,6 +6,7 @@
 
 </div>
 
+&nbsp;
 
 Hello there stranger human!, Call me Joe, I'm a Frontend Dev (Not "Full Stack" but
 depends on the situation). I also work in design and video editing. Honestly, I'm not
