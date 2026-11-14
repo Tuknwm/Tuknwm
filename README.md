@@ -6,6 +6,7 @@
 
 </div>
 
+
 Hello there stranger human!, Call me Joe, I'm a Frontend Dev (Not "Full Stack" but
 depends on the situation). I also work in design and video editing. Honestly, I'm not
 quite sure what else to say, im a full vibecoder for website as Frontend, this day without that is hard tbh, i do respect people who don't though. 
